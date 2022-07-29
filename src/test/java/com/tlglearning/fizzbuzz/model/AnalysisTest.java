@@ -48,7 +48,7 @@ class AnalysisTest {
     assertThrows(IllegalArgumentException.class, new InvalidInvocation(value));
   }
 
-  private class InvalidInvocation implements Executable {
+  class InvalidInvocation implements Executable {
 
     private final int value;
 
